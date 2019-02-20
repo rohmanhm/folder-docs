@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
-    "test": "ava"
+    "test": "ava",
+    "test:ci": "npm run build && npm run test"
   },
   "@pika/pack": {
     "pipeline": [
