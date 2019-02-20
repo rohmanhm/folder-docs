@@ -1,0 +1,47 @@
+{
+  "name": "folder-docs",
+  "version": "0.0.0",
+  "main": "dist/lib.js",
+  "types": "types/lib.d.ts",
+  "repository": "git@github.com:rohmanhm/folder-docs.git",
+  "author": "Rohman Habib M <mhrohman@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "ava"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@pika/plugin-build-node": "^0.3.11",
+    "@pika/plugin-ts-standard-pkg": "^0.3.11",
+    "ava": "^1.2.1",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "directory-tree": "^2.2.1",
+    "json-to-ts": "^1.5.4"
+  },
+  "ava": {
+    "verbose": true,
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}

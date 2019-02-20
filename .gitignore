@@ -1,0 +1,20 @@
+# editor
+.idea/
+.DS_Store
+
+# package ignore
+.cache
+.docz
+node_modules/
+build/
+bundles/
+.cache/
+tmp/
+temp/
+dist/
+.next
+.env
+*.log
+
+lib
+dist
