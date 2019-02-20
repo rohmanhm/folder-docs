@@ -1,6 +1,6 @@
 import test from 'ava'
 import * as path from 'path'
-import FolderDocs from '../dist/lib'
+import FolderDocs from '../'
 
 const basicFolderDocs = new FolderDocs({
   baseDir: path.resolve(__dirname, 'fixtures')
