@@ -39,11 +39,12 @@ interface Folder1image1png {
   new FolderDocs(config);
   ```
 
-  - Config
+  - config
+
     | Key | Default value | Description |
     | --- | --- | --- |
     | baseUrl (required) | `process.cwd` | Base URL folder needs to docs|
-    | exclude | `/node_modules|.git/` | Folder/Files uses regex to exclude from docs |
+    | exclude | `/node_modules\|.git/` | Folder/Files uses regex to exclude from docs |
     | prefix | `/` | Add prefix to object `path` |
 
 ## Author
