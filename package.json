@@ -1,6 +1,6 @@
 {
   "name": "folder-docs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/lib.js",
   "types": "types/lib.d.ts",
   "repository": "git@github.com:rohmanhm/folder-docs.git",
